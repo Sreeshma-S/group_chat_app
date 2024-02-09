@@ -1,0 +1,79 @@
+{% extends 'core/base.html' %}
+
+{% block title %} Welcome | {% endblock %}
+
+{% load static %}
+{% block content %}
+    <div class="p-5 lg:p-10 text-center">
+        <h2 class="text-3xl lg:text-5xl text-black">Let's Chat</h2>
+    </div>
+
+    <div class="text-2xl lg:text-4xl text-black" style="float:left;padding:50px;">
+        Connect, share, and chat seamlessly <br> with our intuitive group messaging app.
+        <br>
+        <br>
+        Communities come alive here!
+        <br>
+        <br>
+        <p style="font-size:20px;">In the vibrant digital tapestry of our interconnected lives, our group messaging app
+            stands as the virtual town square <br> where laughter echoes, ideas bloom, and friendships flourish.
+            Imagine a bustling bazaar of thoughts, <br> where each message is a colorful thread weaving together the diverse fabric of our conversations.
+            <br>
+            It's a symphony of shared moments, where notifications are the sweet melodies that beckon us to join the ongoing narrative.
+            <br> In this virtual agora, ideas spark like fireworks, and plans come to life with the precision of a choreographed dance.
+            <br> Our group messaging app is not just a platform; <br>
+            it's an enchanted garden where the seeds of connection bloom into the kaleidoscope of relationships that define our digital commune.
+        </p>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-2 gap-4" style="float:right;">
+        <div class="grid gap-4">
+            <div>
+                <img class="h-auto max-w-[200px] rounded-lg" src="{% static 'images/icon1.png' %}" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="" alt="">
+            </div>
+        </div>
+        <div class="grid gap-4">
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-[300px] rounded-lg" src="{% static 'images/icon2.png' %}" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="" alt="">
+            </div>
+        </div>
+        <div class="grid gap-4">
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-[100px] rounded-lg" src="{% static 'images/icon3.png' %}" alt="" style="float:right;">
+            </div>
+        </div>
+        <div class="grid gap-4">
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="" alt="">
+            </div>
+            <div>
+                <img class="h-auto max-w-full rounded-lg" src="" alt="">
+            </div>
+            <div style="float:right;">
+                <img class="h-auto max-w-[100px] rounded-lg" src="{% static 'images/icon3.png' %}" alt="">
+                <img class="h-auto max-w-[100px] rounded-lg" src="{% static 'images/icon3.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
+
+
